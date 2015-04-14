@@ -1,0 +1,12 @@
+snippet S3
+	${1:funcname} <- function(${2:args}, ...) UseMethod("${1:funcname}")
+
+snippet exported
+	#' ${1:funcname}
+	#'
+	#' @param ${2:param} description
+	#'
+	#' @export
+	${1:funcname} <- function(${2:param}) {
+	
+	}
